@@ -1,0 +1,24 @@
+proces przesyłania danych od hosta źródłowego do docelowego polega na przepływie danych przez warstwy na urządzeniu źródłowym potem następuje kodowanie i przesyłanie za pośrednictwem medium transmisyjnego którym to proces jest odwracalny i dane przechodzą w górę stosu. informacje są w trzech warstwach: tansportu, internetowej i dostępu do sieci. 
+
+
+ dane    <----		warstwa aplikacyjna
+ dane	 <----		warstwa transportowa
+ dane	 <----		warstwa sieciowa
+ dane	 <----		warstwa dostępowa
+
+
+
+
+Synchronizacja czasowa: W sieciach synchronicznych urządzenia korzystają z wspólnego zegara lub dokładnych cykli czasowych, aby synchronizować swoją pracę. Wszystkie operacje są wykonywane zgodnie z tym wspólnym zegarem.
+
+Stała szybkość transmisji: W sieciach synchronicznych dane są przesyłane w stałym tempie, co oznacza, że są one wysyłane w równych odstępach czasu. To oznacza, że nadawca i odbiorca muszą działać w ustalonym rytmie.
+
+Szybka i niezawodna komunikacja: Sieci synchroniczne są często stosowane w systemach, gdzie szybkość i niezawodność komunikacji są kluczowe, takie jak w transmisji danych między komputerami w centrach danych.
+
+Sieć asynchroniczna:
+
+Brak wspólnego zegara: W sieciach asynchronicznych urządzenia nie korzystają z wspólnego zegara. Dane są przesyłane niezależnie od siebie, wtedy gdy nadawca jest gotowy do wysłania ich, a odbiorca jest gotów do ich przyjęcia.
+
+Dowolna szybkość transmisji: W sieciach asynchronicznych nie ma stałego tempa transmisji. Nadawca i odbiorca nie muszą działać w ustalonym rytmie. To oznacza, że różne części danych mogą być przesyłane w różnych momentach.
+
+Elastyczność i prostota: Sieci asynchroniczne są bardziej elastyczne i prostsze do implementacji niż sieci synchroniczne. Nadają się do zastosowań, gdzie nie ma konieczności dokładnej synchronizacji czasowej, takich jak Internet, gdzie urządzenia są rozproszone i mogą mieć różne szybkości działania.
